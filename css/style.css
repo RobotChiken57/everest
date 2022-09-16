@@ -26,76 +26,26 @@
     bottom: 18.71%;
 }
 .nav{
-    list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
     position: absolute;
-    left: 700px;
-    right: 30%;
-    top: 19%;
-    bottom: 67%;
-    width: 1062px;
+    width: 660px;
     height: 24px;
-    top: 32px;
-    left: 558px;
+    right: 300px;
+    top: 20px;
+
+}
+.nav a{
     text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E192E;
 }
-.nav-link1{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    
-}
-.nav-link2{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    left: 96px;
-}
-.nav-link3{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    left:176px;
-}
-.nav-link4{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    left: 291px;
-}
-.nav-link5{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 4;
-    flex-grow: 0;
-    left: 400px;
-}
-.nav-link6{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 5;
-    flex-grow: 0;
-    left: 498px;
-}
-.nav-link7{
-    width: 72px;
-    height: 24px;
-    flex: none;
-    order: 6;
-    flex-grow: 0;
-    left: 588px;
-}
+
 .logo-contacts{
     position: absolute;
     left: 29%;
@@ -149,6 +99,16 @@
     border-radius: 4px;
 
 }
+.search{
+    position: relative;
+    top: 82px;
+    left: 750px;
+}
+.fuctional{
+    position: relative;
+    top: 65px;
+    left: 800px;
+}
 .p1{
     position: absolute;
     width: 24px;
@@ -166,6 +126,10 @@
     top: calc(50% - 3px/2 + 3.5px);
     background: #091F3A;
     border-radius: 8px;
+}
+.catalog{
+    position: relative;
+    right: 50px;
 }
 .catalog-word{
     position: absolute;
@@ -187,15 +151,35 @@
     position: absolute;
     width: 588px;
     height: 156px;
-    left: 360px;
-    top: 263px;
+    left: 90px;
+    top: 0px;
     font-weight: 800;
     font-size: 48px;
     line-height: 52px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.y{
+    position: absolute;
+    left: 60px;
+    top: 428px;
+}
+.y a{
+    position: relative;
+    top: -20px;
+    width: 194px;
+    height: 21px;
+    font-weight: 800;
+    font-size: 18xp;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.img-strelka
+{
+    position: relative;
+    bottom: 14px;
+}
 .grid{
     display: grid;
     grid-template-areas: "a b c" "d e f" "g h i";
@@ -271,20 +255,37 @@
     color:#2A79CC;
 }
 .news{
+    position: relative;
+    margin-top: 90px;
+    right: 270px;
+    height: 1320px;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap:90px;
 }
 .news-item{
+    display: inline;
     margin-top: 100px;
     left: 300px;
     right: 300px;
 }
+.por{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.por img{
+    position: relative;
+    top: 16px;
+    width: 16px;
+    height: 16px;
+
+}
 .news_text{
     width: 245px;
     height: 52px;
-    left: 300px;
-    top: 2706px;
+    position: relative;
+    left: 200px;
     font-weight: 800;
     font-style: normal;
     size: 48px;
@@ -302,12 +303,15 @@
     position: absolute;
     width: 52px;
     height: 65px;
-    left: 750px;
+    left: 650px;
+    top: 2795px;
+
 }
 .strelka{
     position: relative;
     right: 100px;
-    left: 100px;
+    left: 50px;
+    top: 25px;
 }
 .strelka1{
     position: absolute;
@@ -470,3 +474,16 @@ li{
 .terms{
     color: #FFFFFF;
 }
+.dop__link{
+    color:#2A79CC ;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 12px;   
+}
+.dop__link:hover{
+    
+}
+.link__dop{
+    margin-top: 20px ;
+    word-spacing:30px;
+ }
